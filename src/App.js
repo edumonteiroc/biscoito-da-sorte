@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Botao from './Controles/Botao.js';
+
 
 
 
@@ -21,7 +21,7 @@ function App(){
     
     function AbrirBiscoito(){
         const NumeroAleatorio = Math.floor(Math.random() * Texto.length);
-        alert(NumeroAleatorio);
+        setFrases(Texto[NumeroAleatorio]);
     }
 
 
